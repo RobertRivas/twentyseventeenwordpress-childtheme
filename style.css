@@ -1,0 +1,53 @@
+/* 
+Theme Name: Twenty Seventeen Child 
+Theme URL: http://yourdomain.com
+Description: Twenty Seventeen Child 
+Theme Author: Your Name
+Author URL: http://yourdomain.com
+Template: twentyseventeen 
+Version: 1.0.0 
+Text Domain: twentyseventeen-child 
+*/
+
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 700px; */
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.page-one-column .panel-content .wrap {
+  max-width: 1000px;
+}
+
+/* changes title size */
+.site-title {
+  font-size: 3.75rem;
+  line-height: 1.25;
+}
+
+.site-description {
+  font-size: 64px;
+  font-size: 1rem;
+}
+
+
+.has-sidebar #secondary {
+    float: right;
+    padding-top: 0;
+    width: 20%;
+}
+
+.has-sidebar:not(.error404)
+#primary {
+  float: left;
+  width: 75%;
+}
+
+/* outlines all elements in red to find objects */
+ /* * {
+  border: 1px solid red !important;
+}  */
+
+
